@@ -1,0 +1,17 @@
+## Contributing
+
+We welcome contributions to improve this Image Viewer and Description Writer application! Please feel free to create issues or submit pull requests on the project's GitHub repository.
+
+To contribute, please follow these steps:
+
+1. Fork the project repository on GitHub.
+2. Clone the forked repository to your local machine.
+3. Create a new branch in your local repository for your desired changes.
+4. Make your changes and commit them to your local repository.
+5. Push your changes to your forked repository on GitHub.
+6. Create a pull request from your forked repository to the main project repository.
+7. Wait for your pull request to be reviewed and, if necessary, make additional changes based on the feedback.
+
+By contributing to the project, you agree to license your contributions under the same open-source license as the original project and to grant the project maintainers and other contributors the right to use your submitted work.
+
+Thank you for considering contributing to this project! We appreciate your help in making the Image Viewer and Description Writer application even better.
