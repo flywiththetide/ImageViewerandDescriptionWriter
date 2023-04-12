@@ -1,12 +1,12 @@
-# Image Viewer and Description Writer
+# Enhanced Image Viewer and Description Writer
 
 ![Directory Search](img1.png)
 
-This is a web-based image viewer and description writer application built using Flask. It allows the user to select a directory containing images, navigate through those images, and write descriptions for them. The descriptions are saved as text files.
+Welcome to the improved web-based image viewer and description writer application, crafted using Flask. This application empowers users to choose a directory containing images, seamlessly browse through them, and effortlessly write descriptions. These descriptions are conveniently saved as text files.
 
 ## Overview
 
-This program provides a user-friendly solution for professionals working in the AI industry to efficiently manage image-related tasks for their Fiverr gig. It presents an easy-to-use locally hosted web application that enables users to attach prompts or descriptions to images seamlessly.
+Our state-of-the-art program provides a user-friendly solution for AI industry professionals to seamlessly manage image-related tasks for their Fiverr gigs. It offers an easy-to-use locally hosted web application enabling users to smoothly attach prompts or descriptions to images.
 
 ![Image Labeling Textbox](img2.png)
 
@@ -15,34 +15,48 @@ This program provides a user-friendly solution for professionals working in the 
 - Python 3.6 or higher
 - Flask package
 
-To install the required Flask package, run the following command:
+To install the required Flask package, execute the following command:
 
-```
-pip install flask
-```
+```pip install flask```
 
-## How to use
+## Usage Guide
 
-1. Run the Flask application using the following command:
+1. Launch the Flask application using this command:
 
-```
-python app.py
-```
+```python app.py```
 
-2. Open your web browser and visit: http://localhost:8881
+2. Open your favorite web browser and navigate to: http://localhost:8881
 
-3. Enter the path of the folder containing your images and click "Submit".
+3. Input the desired folder path containing your images and click "Submit".
 
-4. The first image in the folder will be displayed along with a form field to enter the description. Add a description and click "Save and Next".
+4. The first image from the folder will appear alongside a form field to enter the description. Add a description and click "Save and Next".
 
-5. The application will save the description as a text file with the same name as the image, and display the next image in the folder.
+5. The application will store the description as a text file, sharing the same name as the image, and showcase the next image in the folder.
 
-6. Continue adding descriptions to the images. Once all images have a description, the application will cycle back to display the first image again.
+6. Continue the process of adding descriptions to the images. Upon completion, the application will loop back to display the first image.
 
-The solution is designed to be functional for any directory, not just a specific working directory. This allows users the flexibility to work with different directories and manage their images effectively.
+Designed for versatility, our solution operates seamlessly with any directory, eliminating the need for a specific working directory. This allows users the flexibility to collaborate with various directories and manage their images effectively.
 
-By using this program, you can streamline your Fiverr gig workflow, improve efficiency, and enhance your productivity in a professional and user-friendly manner.
+By leveraging this program, you will optimize your Fiverr gig workflow, boost efficiency, and significantly elevate your productivity in a professional and user-friendly manner.
 
 ## Customization
 
-You may modify the templates and styles directly in the Python code. Look for `DIRECTORY_FORM_HTML` and `IMAGE_VIEW_HTML` variables in the code to edit the templates.
+Feel free to modify the templates and styles within the Python code. Locate the `DIRECTORY_FORM_HTML` and `IMAGE_VIEW_HTML` variables in the code to edit the templates.
+
+## Contributing
+
+We wholeheartedly welcome contributions that enhance the Image Viewer and Description Writer application! Please create issues or submit pull requests on the project's GitHub repository.
+
+To contribute, kindly follow these steps:
+
+1. Fork the project repository on GitHub.
+2. Clone the forked repository to your local computer.
+3. Establish a new branch in your local repository for your desired modifications.
+4. Implement your changes and commit them to your local repository.
+5. Push your changes to your forked repository on GitHub.
+6. Initiate a pull request from your forked repository to the main project repository.
+7. Await your pull request to be reviewed and, if required, make additional modifications based on the feedback.
+
+By contributing to the project, you agree to license your contributions under the same open-source license as the original project, and grant the project maintainers and other contributors the right to utilize your submitted work.
+
+We sincerely appreciate your interest in contributing to this project and helping us make the Image Viewer and Description Writer application even better!
