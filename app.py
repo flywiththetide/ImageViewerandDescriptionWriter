@@ -30,7 +30,7 @@ IMAGE_VIEW_HTML = '''
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Image Viewer</title>
+        <title>Cool Image Viewer</title>
     </head>
     <body>
         <img src="{{ img_path }}" alt="image" width="30%">
